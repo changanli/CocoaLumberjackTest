@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0475293322EA888500C570CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0475293222EA888500C570CC /* AppDelegate.swift */; };
+		0475293522EA888500C570CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0475293422EA888500C570CC /* ViewController.swift */; };
+		0475293822EA888500C570CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0475293622EA888500C570CC /* Main.storyboard */; };
+		0475293A22EA888700C570CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0475293922EA888700C570CC /* Assets.xcassets */; };
+		0475293D22EA888700C570CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0475293B22EA888700C570CC /* LaunchScreen.storyboard */; };
+		0475294822EA888700C570CC /* CocoaLumberjackTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0475294722EA888700C570CC /* CocoaLumberjackTestTests.swift */; };
+		0475295322EA888700C570CC /* CocoaLumberjackTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0475295222EA888700C570CC /* CocoaLumberjackTestUITests.swift */; };
+		0475296322EA889A00C570CC /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475296222EA889A00C570CC /* TestController.m */; };
+		047529BF22EA895200C570CC /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475299B22EA895200C570CC /* DDTTYLogger.m */; };
+		047529C022EA895200C570CC /* DDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475299E22EA895200C570CC /* DDOSLogger.m */; };
+		047529C122EA895200C570CC /* DDAssert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0475299F22EA895200C570CC /* DDAssert.swift */; };
+		047529C222EA895200C570CC /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 047529A422EA895200C570CC /* DDASLLogger.m */; };
+		047529C322EA895200C570CC /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 047529A622EA895200C570CC /* CLIColor.m */; };
+		047529C422EA895200C570CC /* CocoaLumberjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047529A822EA895200C570CC /* CocoaLumberjack.swift */; };
+		047529C522EA895200C570CC /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 047529AB22EA895200C570CC /* DDContextFilterLogFormatter.m */; };
+		047529C622EA895200C570CC /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 047529AC22EA895200C570CC /* DDDispatchQueueLogFormatter.m */; };
+		047529C722EA895200C570CC /* DDFileLogger+Buffering.m in Sources */ = {isa = PBXBuildFile; fileRef = 047529AD22EA895200C570CC /* DDFileLogger+Buffering.m */; };
+		047529C822EA895200C570CC /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 047529B022EA895200C570CC /* DDMultiFormatter.m */; };
+		047529C922EA895200C570CC /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 047529B422EA895200C570CC /* DDLog.m */; };
+		047529CA22EA895200C570CC /* DDLoggerNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 047529BA22EA895200C570CC /* DDLoggerNames.m */; };
+		047529CB22EA895200C570CC /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 047529BB22EA895200C570CC /* DDAbstractDatabaseLogger.m */; };
+		047529CC22EA895200C570CC /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 047529BC22EA895200C570CC /* DDFileLogger.m */; };
+		047529CD22EA895200C570CC /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 047529BE22EA895200C570CC /* DDASLLogCapture.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0475294422EA888700C570CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0475292722EA888500C570CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0475292E22EA888500C570CC;
+			remoteInfo = CocoaLumberjackTest;
+		};
+		0475294F22EA888700C570CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0475292722EA888500C570CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0475292E22EA888500C570CC;
+			remoteInfo = CocoaLumberjackTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0475292F22EA888500C570CC /* CocoaLumberjackTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaLumberjackTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0475293222EA888500C570CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0475293422EA888500C570CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0475293722EA888500C570CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0475293922EA888700C570CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0475293C22EA888700C570CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0475293E22EA888700C570CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0475294322EA888700C570CC /* CocoaLumberjackTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaLumberjackTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0475294722EA888700C570CC /* CocoaLumberjackTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaLumberjackTestTests.swift; sourceTree = "<group>"; };
+		0475294922EA888700C570CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0475294E22EA888700C570CC /* CocoaLumberjackTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaLumberjackTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0475295222EA888700C570CC /* CocoaLumberjackTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaLumberjackTestUITests.swift; sourceTree = "<group>"; };
+		0475295422EA888700C570CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0475296022EA889A00C570CC /* CocoaLumberjackTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjackTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		0475296122EA889A00C570CC /* TestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		0475296222EA889A00C570CC /* TestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
+		0475299A22EA895200C570CC /* DDFileLogger+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDFileLogger+Internal.h"; sourceTree = "<group>"; };
+		0475299B22EA895200C570CC /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		0475299C22EA895200C570CC /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		0475299D22EA895200C570CC /* DDLegacyMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLegacyMacros.h; sourceTree = "<group>"; };
+		0475299E22EA895200C570CC /* DDOSLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDOSLogger.m; sourceTree = "<group>"; };
+		0475299F22EA895200C570CC /* DDAssert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDAssert.swift; sourceTree = "<group>"; };
+		047529A022EA895200C570CC /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		047529A122EA895200C570CC /* DDLoggerNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLoggerNames.h; sourceTree = "<group>"; };
+		047529A222EA895200C570CC /* DDLogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLogMacros.h; sourceTree = "<group>"; };
+		047529A322EA895200C570CC /* DDASLLogCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogCapture.h; sourceTree = "<group>"; };
+		047529A422EA895200C570CC /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		047529A622EA895200C570CC /* CLIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIColor.m; sourceTree = "<group>"; };
+		047529A722EA895200C570CC /* CLIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIColor.h; sourceTree = "<group>"; };
+		047529A822EA895200C570CC /* CocoaLumberjack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaLumberjack.swift; sourceTree = "<group>"; };
+		047529A922EA895200C570CC /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		047529AB22EA895200C570CC /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		047529AC22EA895200C570CC /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		047529AD22EA895200C570CC /* DDFileLogger+Buffering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DDFileLogger+Buffering.m"; sourceTree = "<group>"; };
+		047529AE22EA895200C570CC /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
+		047529AF22EA895200C570CC /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		047529B022EA895200C570CC /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
+		047529B122EA895200C570CC /* DDFileLogger+Buffering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDFileLogger+Buffering.h"; sourceTree = "<group>"; };
+		047529B222EA895200C570CC /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		047529B322EA895200C570CC /* SwiftLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftLogLevel.h; sourceTree = "<group>"; };
+		047529B422EA895200C570CC /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		047529B522EA895200C570CC /* CocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLumberjack.h; sourceTree = "<group>"; };
+		047529B622EA895200C570CC /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		047529B722EA895200C570CC /* DDAssertMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAssertMacros.h; sourceTree = "<group>"; };
+		047529B822EA895200C570CC /* DDOSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDOSLogger.h; sourceTree = "<group>"; };
+		047529B922EA895200C570CC /* DDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
+		047529BA22EA895200C570CC /* DDLoggerNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLoggerNames.m; sourceTree = "<group>"; };
+		047529BB22EA895200C570CC /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		047529BC22EA895200C570CC /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		047529BD22EA895200C570CC /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		047529BE22EA895200C570CC /* DDASLLogCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogCapture.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0475292C22EA888500C570CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0475294022EA888700C570CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0475294B22EA888700C570CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0475292622EA888500C570CC = {
+			isa = PBXGroup;
+			children = (
+				0475293122EA888500C570CC /* CocoaLumberjackTest */,
+				0475294622EA888700C570CC /* CocoaLumberjackTestTests */,
+				0475295122EA888700C570CC /* CocoaLumberjackTestUITests */,
+				0475293022EA888500C570CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0475293022EA888500C570CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0475292F22EA888500C570CC /* CocoaLumberjackTest.app */,
+				0475294322EA888700C570CC /* CocoaLumberjackTestTests.xctest */,
+				0475294E22EA888700C570CC /* CocoaLumberjackTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0475293122EA888500C570CC /* CocoaLumberjackTest */ = {
+			isa = PBXGroup;
+			children = (
+				0475299922EA895200C570CC /* Classes */,
+				0475293222EA888500C570CC /* AppDelegate.swift */,
+				0475293422EA888500C570CC /* ViewController.swift */,
+				0475293622EA888500C570CC /* Main.storyboard */,
+				0475293922EA888700C570CC /* Assets.xcassets */,
+				0475293B22EA888700C570CC /* LaunchScreen.storyboard */,
+				0475293E22EA888700C570CC /* Info.plist */,
+				0475296122EA889A00C570CC /* TestController.h */,
+				0475296222EA889A00C570CC /* TestController.m */,
+				0475296022EA889A00C570CC /* CocoaLumberjackTest-Bridging-Header.h */,
+			);
+			path = CocoaLumberjackTest;
+			sourceTree = "<group>";
+		};
+		0475294622EA888700C570CC /* CocoaLumberjackTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				0475294722EA888700C570CC /* CocoaLumberjackTestTests.swift */,
+				0475294922EA888700C570CC /* Info.plist */,
+			);
+			path = CocoaLumberjackTestTests;
+			sourceTree = "<group>";
+		};
+		0475295122EA888700C570CC /* CocoaLumberjackTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0475295222EA888700C570CC /* CocoaLumberjackTestUITests.swift */,
+				0475295422EA888700C570CC /* Info.plist */,
+			);
+			path = CocoaLumberjackTestUITests;
+			sourceTree = "<group>";
+		};
+		0475299922EA895200C570CC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0475299A22EA895200C570CC /* DDFileLogger+Internal.h */,
+				0475299B22EA895200C570CC /* DDTTYLogger.m */,
+				0475299C22EA895200C570CC /* DDLog.h */,
+				0475299D22EA895200C570CC /* DDLegacyMacros.h */,
+				0475299E22EA895200C570CC /* DDOSLogger.m */,
+				0475299F22EA895200C570CC /* DDAssert.swift */,
+				047529A022EA895200C570CC /* DDAbstractDatabaseLogger.h */,
+				047529A122EA895200C570CC /* DDLoggerNames.h */,
+				047529A222EA895200C570CC /* DDLogMacros.h */,
+				047529A322EA895200C570CC /* DDASLLogCapture.h */,
+				047529A422EA895200C570CC /* DDASLLogger.m */,
+				047529A522EA895200C570CC /* CLI */,
+				047529A822EA895200C570CC /* CocoaLumberjack.swift */,
+				047529A922EA895200C570CC /* DDFileLogger.h */,
+				047529AA22EA895200C570CC /* Extensions */,
+				047529B322EA895200C570CC /* SwiftLogLevel.h */,
+				047529B422EA895200C570CC /* DDLog.m */,
+				047529B522EA895200C570CC /* CocoaLumberjack.h */,
+				047529B622EA895200C570CC /* DDTTYLogger.h */,
+				047529B722EA895200C570CC /* DDAssertMacros.h */,
+				047529B822EA895200C570CC /* DDOSLogger.h */,
+				047529B922EA895200C570CC /* DDLog+LOGV.h */,
+				047529BA22EA895200C570CC /* DDLoggerNames.m */,
+				047529BB22EA895200C570CC /* DDAbstractDatabaseLogger.m */,
+				047529BC22EA895200C570CC /* DDFileLogger.m */,
+				047529BD22EA895200C570CC /* DDASLLogger.h */,
+				047529BE22EA895200C570CC /* DDASLLogCapture.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		047529A522EA895200C570CC /* CLI */ = {
+			isa = PBXGroup;
+			children = (
+				047529A622EA895200C570CC /* CLIColor.m */,
+				047529A722EA895200C570CC /* CLIColor.h */,
+			);
+			path = CLI;
+			sourceTree = "<group>";
+		};
+		047529AA22EA895200C570CC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				047529AB22EA895200C570CC /* DDContextFilterLogFormatter.m */,
+				047529AC22EA895200C570CC /* DDDispatchQueueLogFormatter.m */,
+				047529AD22EA895200C570CC /* DDFileLogger+Buffering.m */,
+				047529AE22EA895200C570CC /* DDMultiFormatter.h */,
+				047529AF22EA895200C570CC /* DDContextFilterLogFormatter.h */,
+				047529B022EA895200C570CC /* DDMultiFormatter.m */,
+				047529B122EA895200C570CC /* DDFileLogger+Buffering.h */,
+				047529B222EA895200C570CC /* DDDispatchQueueLogFormatter.h */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0475292E22EA888500C570CC /* CocoaLumberjackTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0475295722EA888700C570CC /* Build configuration list for PBXNativeTarget "CocoaLumberjackTest" */;
+			buildPhases = (
+				0475292B22EA888500C570CC /* Sources */,
+				0475292C22EA888500C570CC /* Frameworks */,
+				0475292D22EA888500C570CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaLumberjackTest;
+			productName = CocoaLumberjackTest;
+			productReference = 0475292F22EA888500C570CC /* CocoaLumberjackTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0475294222EA888700C570CC /* CocoaLumberjackTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0475295A22EA888700C570CC /* Build configuration list for PBXNativeTarget "CocoaLumberjackTestTests" */;
+			buildPhases = (
+				0475293F22EA888700C570CC /* Sources */,
+				0475294022EA888700C570CC /* Frameworks */,
+				0475294122EA888700C570CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0475294522EA888700C570CC /* PBXTargetDependency */,
+			);
+			name = CocoaLumberjackTestTests;
+			productName = CocoaLumberjackTestTests;
+			productReference = 0475294322EA888700C570CC /* CocoaLumberjackTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0475294D22EA888700C570CC /* CocoaLumberjackTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0475295D22EA888700C570CC /* Build configuration list for PBXNativeTarget "CocoaLumberjackTestUITests" */;
+			buildPhases = (
+				0475294A22EA888700C570CC /* Sources */,
+				0475294B22EA888700C570CC /* Frameworks */,
+				0475294C22EA888700C570CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0475295022EA888700C570CC /* PBXTargetDependency */,
+			);
+			name = CocoaLumberjackTestUITests;
+			productName = CocoaLumberjackTestUITests;
+			productReference = 0475294E22EA888700C570CC /* CocoaLumberjackTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0475292722EA888500C570CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = com.cnlod;
+				TargetAttributes = {
+					0475292E22EA888500C570CC = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+					0475294222EA888700C570CC = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 0475292E22EA888500C570CC;
+					};
+					0475294D22EA888700C570CC = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 0475292E22EA888500C570CC;
+					};
+				};
+			};
+			buildConfigurationList = 0475292A22EA888500C570CC /* Build configuration list for PBXProject "CocoaLumberjackTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0475292622EA888500C570CC;
+			productRefGroup = 0475293022EA888500C570CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0475292E22EA888500C570CC /* CocoaLumberjackTest */,
+				0475294222EA888700C570CC /* CocoaLumberjackTestTests */,
+				0475294D22EA888700C570CC /* CocoaLumberjackTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0475292D22EA888500C570CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0475293D22EA888700C570CC /* LaunchScreen.storyboard in Resources */,
+				0475293A22EA888700C570CC /* Assets.xcassets in Resources */,
+				0475293822EA888500C570CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0475294122EA888700C570CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0475294C22EA888700C570CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0475292B22EA888500C570CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047529C922EA895200C570CC /* DDLog.m in Sources */,
+				0475293522EA888500C570CC /* ViewController.swift in Sources */,
+				047529C422EA895200C570CC /* CocoaLumberjack.swift in Sources */,
+				047529C622EA895200C570CC /* DDDispatchQueueLogFormatter.m in Sources */,
+				047529BF22EA895200C570CC /* DDTTYLogger.m in Sources */,
+				047529C022EA895200C570CC /* DDOSLogger.m in Sources */,
+				047529CB22EA895200C570CC /* DDAbstractDatabaseLogger.m in Sources */,
+				0475296322EA889A00C570CC /* TestController.m in Sources */,
+				047529C522EA895200C570CC /* DDContextFilterLogFormatter.m in Sources */,
+				047529C822EA895200C570CC /* DDMultiFormatter.m in Sources */,
+				047529CA22EA895200C570CC /* DDLoggerNames.m in Sources */,
+				047529CC22EA895200C570CC /* DDFileLogger.m in Sources */,
+				047529CD22EA895200C570CC /* DDASLLogCapture.m in Sources */,
+				047529C322EA895200C570CC /* CLIColor.m in Sources */,
+				0475293322EA888500C570CC /* AppDelegate.swift in Sources */,
+				047529C222EA895200C570CC /* DDASLLogger.m in Sources */,
+				047529C722EA895200C570CC /* DDFileLogger+Buffering.m in Sources */,
+				047529C122EA895200C570CC /* DDAssert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0475293F22EA888700C570CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0475294822EA888700C570CC /* CocoaLumberjackTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0475294A22EA888700C570CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0475295322EA888700C570CC /* CocoaLumberjackTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0475294522EA888700C570CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0475292E22EA888500C570CC /* CocoaLumberjackTest */;
+			targetProxy = 0475294422EA888700C570CC /* PBXContainerItemProxy */;
+		};
+		0475295022EA888700C570CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0475292E22EA888500C570CC /* CocoaLumberjackTest */;
+			targetProxy = 0475294F22EA888700C570CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0475293622EA888500C570CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0475293722EA888500C570CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0475293B22EA888700C570CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0475293C22EA888700C570CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0475295522EA888700C570CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0475295622EA888700C570CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0475295822EA888700C570CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3P4K7U865;
+				INFOPLIST_FILE = CocoaLumberjackTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnlod.test.CocoaLumberjackTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CocoaLumberjackTest/CocoaLumberjackTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0475295922EA888700C570CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3P4K7U865;
+				INFOPLIST_FILE = CocoaLumberjackTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnlod.test.CocoaLumberjackTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CocoaLumberjackTest/CocoaLumberjackTest-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0475295B22EA888700C570CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3P4K7U865;
+				INFOPLIST_FILE = CocoaLumberjackTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnlod.test.CocoaLumberjackTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaLumberjackTest.app/CocoaLumberjackTest";
+			};
+			name = Debug;
+		};
+		0475295C22EA888700C570CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3P4K7U865;
+				INFOPLIST_FILE = CocoaLumberjackTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnlod.test.CocoaLumberjackTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaLumberjackTest.app/CocoaLumberjackTest";
+			};
+			name = Release;
+		};
+		0475295E22EA888700C570CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3P4K7U865;
+				INFOPLIST_FILE = CocoaLumberjackTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnlod.test.CocoaLumberjackTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CocoaLumberjackTest;
+			};
+			name = Debug;
+		};
+		0475295F22EA888700C570CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3P4K7U865;
+				INFOPLIST_FILE = CocoaLumberjackTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnlod.test.CocoaLumberjackTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CocoaLumberjackTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0475292A22EA888500C570CC /* Build configuration list for PBXProject "CocoaLumberjackTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0475295522EA888700C570CC /* Debug */,
+				0475295622EA888700C570CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0475295722EA888700C570CC /* Build configuration list for PBXNativeTarget "CocoaLumberjackTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0475295822EA888700C570CC /* Debug */,
+				0475295922EA888700C570CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0475295A22EA888700C570CC /* Build configuration list for PBXNativeTarget "CocoaLumberjackTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0475295B22EA888700C570CC /* Debug */,
+				0475295C22EA888700C570CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0475295D22EA888700C570CC /* Build configuration list for PBXNativeTarget "CocoaLumberjackTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0475295E22EA888700C570CC /* Debug */,
+				0475295F22EA888700C570CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0475292722EA888500C570CC /* Project object */;
+}
